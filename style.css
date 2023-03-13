@@ -506,27 +506,28 @@ Footer {
         width: 100%;
         margin: 0;
         padding: 0;
+    }
+
+    nav > ul {
+        width: 100%;
+    }
+
+    nav > ul > li {
+        width: 100%;
         border-bottom: #F2F2F2 solid 3px;
     }
 
-    ul {
+    nav > ul > li > a {
         width: 100%;
     }
 
-    li {
-        width: 100%;
-   
-    }
-
-    nav ul li {
-        width: 100%;
-    }
 
     /* La bordure, au survol, passe en-dessus du navigateur*/
     nav ul li:hover {
-        border-top: 0;
+        border-top: none;
         border-bottom: solid 3px #0065FC;
     }
+
 
     h1 {
         text-align: center;

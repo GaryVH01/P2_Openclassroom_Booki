@@ -1,0 +1,15 @@
+.visuels{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+
+}
+
+.Hébergements-populaires{
+    display: grid;
+    grid-row: inherit;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
