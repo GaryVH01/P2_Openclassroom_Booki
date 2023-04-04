@@ -120,6 +120,11 @@ form p {
     padding-left: 20px;
 }
 
+input::placeholder{
+    color: black;
+    opacity: 1;
+}
+
 .icon {
     height: 51px;
     width: 51px;
@@ -130,6 +135,9 @@ form p {
     border-radius: 10px 0 0 10px;
 }
 
+.icon i{
+    color: black;
+}
 /* Boutton de recherche pour la version desktop qui sera différent pour la version mobile*/
 .searchButtonDesktop {
     display: flex;
