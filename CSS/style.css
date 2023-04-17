@@ -715,7 +715,7 @@ Footer {
         margin: 0;
     }
 
-    /* Suppression des styles au survol des balises <ul> */
+    /* Suppression des styles au survol des balises <ul>*/
     .footerItems li:hover {
         border-top: 0;
         border-bottom: 0;
